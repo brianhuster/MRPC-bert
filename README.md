@@ -1,6 +1,7 @@
 # MRPC-bert
 
 This model is a fine-tuned version of [bert-base-uncased](https://huggingface.co/bert-base-uncased) on the GLUE MRPC dataset.
+
 Model link : [https://huggingface.co/brianhuster/MRPC-bert/](https://huggingface.co/brianhuster/MRPC-bert/)
 
 ### Training hyperparameters
