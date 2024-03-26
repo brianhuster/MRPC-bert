@@ -1,7 +1,7 @@
 # MRPC-bert
 
 This model is a fine-tuned version of [bert-base-uncased](https://huggingface.co/bert-base-uncased) on the GLUE MRPC dataset.
-
+Model link : [https://huggingface.co/brianhuster/MRPC-bert/](https://huggingface.co/brianhuster/MRPC-bert/)
 
 ### Training hyperparameters
 
@@ -25,18 +25,3 @@ classifier(
 )
 ```
 Replace "Sentence 1" and "Sentence 2" with your actual input sentence. Each sentence should end with a fullstop, even if they are questions. The model will return LABEL_1 if they are are equivalent in meaning, LABEL_1 otherwise.
-
----
-license: apache-2.0
-datasets:
-- nyu-mll/glue
-- SetFit/mrpc
-language:
-- en
-metrics:
-- accuracy 0.8823529411764706
-- f1 0.9178082191780821
-library_name: transformers
-pipeline_tag: text-classification
----
----
