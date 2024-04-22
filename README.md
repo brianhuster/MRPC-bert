@@ -25,4 +25,4 @@ classifier(
     "Sentence 1. Sentence 2."
 )
 ```
-Replace "Sentence 1" and "Sentence 2" with your actual input sentence. Each sentence should end with a fullstop, even if they are questions. The model will return LABEL_1 if they are are equivalent in meaning, LABEL_1 otherwise.
+Replace "Sentence 1" and "Sentence 2" with your actual input sentence. Each sentence should end with a fullstop, even if they are questions. The model will return LABEL_1 if they are are equivalent in meaning, LABEL_0 otherwise.
